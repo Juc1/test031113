@@ -204,43 +204,53 @@ projects[alphorn][type] = "theme"
   
 ; Libraries
 ; ---------
+
+; Please fill the following out. Type may be one of get, git, bzr or svn,
+; and url is the url of the download.
+
 libraries[jquery][download][type] = "file"
 libraries[jquery][download][url] = "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
 libraries[jqueryui][download][type] = "file"
 libraries[jqueryui][download][url] = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"
-
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
 
 libraries[jquery.cycle][download][type] = "file"
 libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
 libraries[jquery.cycle][type] = "library"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
+libraries[jqueryui][download][type] = "get"
+libraries[jqueryui][download][url] = "http://jqueryui.com/resources/download/jquery-ui-1.10.3.zip"
+libraries[jqueryui][directory_name] = "jqueryui"
+libraries[jqueryui][type] = "library"
 
 libraries[json2][download][type] = "file"
 libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/blob/master/json2.js"
 libraries[json2][directory_name] = "json2"
 libraries[json2][type] = "library"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
 libraries[tinymce][download][type] = "get"
-libraries[tinymce][download][url] = "http://download.moxiecode.com/tinymce/tinymce_4.0b3.zip"
+libraries[tinymce][download][url] = "http://download.moxiecode.com/tinymce/tinymce_3.5.10.zip"
 libraries[tinymce][directory_name] = "tinymce"
 libraries[tinymce][type] = "library"
-
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
 
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.1.2/ckeditor_4.1.2_standard.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][type] = "library"
 
-libraries[jquery.cycle][download][type] = "file"
-libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
-libraries[jquery.cycle][directory_name] = "jquery.cycle"
-libraries[jquery.cycle][type] = "library"
+libraries[flexslider][download][type] = "get"
+libraries[flexslider][download][url] = "https://github.com/Juc1/test031113/blob/master/flexslider.zip"
+libraries[flexslider][directory_name] = "flexslider"
+libraries[flexslider][type] = "library"
+
+libraries[jwplayer][download][type] = "get"
+libraries[jwplayer][download][url] = "https://github.com/Juc1/test031113/blob/master/jwplayer5.zip"
+libraries[jwplayer][directory_name] = "jwplayer"
+libraries[jwplayer][type] = "library"
+
+libraries[flexslider][download][type] = "get"
+libraries[flexslider][download][url] = "https://github.com/Juc1/test031113/blob/master/jwplayer_skins.zip"
+libraries[flexslider][directory_name] = "jwplayer_skins"
+libraries[flexslider][type] = "library"
+
+
